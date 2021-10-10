@@ -1,0 +1,106 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+    "width": 500,
+    "height": 400,
+    "title": "Passenger departing from Singapore and arriving in Singapore",
+    "data": {
+        "url": "data/departure_cleaned.csv"
+      },
+      "params": [
+        {
+            "name": "Continent_selection",
+            "bind": {
+             "input": "select",
+             "options": [
+                null,
+                "North East Asia",
+                "South East Asia",
+                "Europe"
+    
+            ],
+            "labels":[
+            "Show All",
+            "North East Asia",
+            "South East Asia",
+            "Europe"
+            ],
+            "name": "Continent Selection: "
+            } 
+        }
+    ],
+    "transform": [
+        {"filter": "Continent_selection == null || datum.Region == Continent_selection"}
+              ],
+    "encoding": {
+        "x": {
+            "field": "Total_Passenger_Arrival",
+            "type": "quantitative"
+            },  
+        "y": {
+            "field": "Total_Passenger_Depart",
+            "type": "quantitative"
+            }
+    },
+    "layer": [
+        {
+            "selection": {
+                "destination_highlight": {
+                    "type": "multi",
+                    "fields": ["Destination"],
+                    "bind": "legend"
+            }
+        },
+        "mark": "circle",
+        "encoding": {
+            "size": {
+                "field": "Total_Passenger_Depart",
+                 "type": "quantitative"
+              },
+              "color": {
+                "field": "Destination",
+                "type": "nominal"
+            }
+        },
+        "opacity": {
+            "condition": {"selection": "destination_highlight", "value": 0.6},
+            "value": 0.2
+        },
+        "tooltip": [
+            {"field": "Destination", "type": "nominal"},
+            {"field": "Region", "type": "nominal"},
+            {"field": "Total_Passenger_Arrival", "type": "quantitative", "format": ","}, 
+            {"field": "Total_Passenger_Depart", "type": "quantitative", "format": ","} 
+            ]
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "right",
+                "baseline": "middle",
+                "dx": -12,
+                "fontSize": 11.5,
+                "fontStyle": "italic"
+            },
+            "encoding": {
+                "text": {"field": "Destination", "type": "nominal"}, 
+                "color": {"value": "black"},
+                "opacity": {
+                    "condition": {
+                        "test": "datum['Destination'] == 'China' || datum['Destination'] == 'Thailand' || datum['Destination'] == 'Vietnam'",
+                        "value": 1 
+                    },
+                    "value": 0
+                },
+                "tooltip": [
+                    {"field": "Destination", "type": "nominal"},
+                    {"field": "Region", "type": "nominal"},
+                    {"field": "Total_Passenger_Arrival", "type": "quantitative", "format": ","}, 
+                    {"field": "Total_Passenger_Depart", "type": "quantitative", "format": ","} 
+                    ]
+            }
+        }
+    ]
+}
+
+            
+    
