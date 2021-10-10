@@ -59,11 +59,11 @@
               "color": {
                 "field": "Destination",
                 "type": "nominal"
-            }
-        },
-        "opacity": {
+            },
+            "opacity": {
             "condition": {"selection": "destination_highlight", "value": 0.6},
             "value": 0.2
+            }   
         },
         "tooltip": [
             {"field": "Destination", "type": "nominal"},
