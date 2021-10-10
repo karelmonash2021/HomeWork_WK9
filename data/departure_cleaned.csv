@@ -1,12 +1,89 @@
-month,Origin,Region,Destination,Total_Passenger_Depart
-2020-02,Singapore,South East Asia,Malaysia,152293
-2020-02,Singapore,South East Asia,Indonesia,201381
-2020-02,Singapore,South East Asia,Thailand,142700
-2020-02,Singapore,South East Asia,Philippines,87293
-2020-02,Singapore,South East Asia,Vietnam,63629
-2020-02,Singapore,North East Asia,China,26823
-2020-02,Singapore,North East Asia,Hong Kong,33674
-2020-02,Singapore,North East Asia,Japan,105323
-2020-02,Singapore,Europe,United Kingdom,52668
-2020-02,Singapore,Europe,France,15019
-2020-02,Singapore,Europe,Germany,44469
+month,remarks,Origin,Region,Destination,Total_Passenger_Depart
+2019-01,Departure,Singapore,South East Asia,Malaysia,254925
+2019-01,Departure,Singapore,South East Asia,Indonesia,337480
+2019-01,Departure,Singapore,South East Asia,Thailand,229295
+2019-01,Departure,Singapore,South East Asia,Philippines,119446
+2019-01,Departure,Singapore,South East Asia,Vietnam,99103
+2019-01,Departure,Singapore,North East Asia,China,264269
+2019-01,Departure,Singapore,North East Asia,Hong Kong,123988
+2019-01,Departure,Singapore,North East Asia,Japan,131383
+2019-01,Departure,Singapore,Europe,United Kingdom,60808
+2019-01,Departure,Singapore,Europe,France,17327
+2019-01,Departure,Singapore,Europe,Germany,45781
+2019-02,Departure,Singapore,South East Asia,Malaysia,245094
+2019-02,Departure,Singapore,South East Asia,Indonesia,281322
+2019-02,Departure,Singapore,South East Asia,Thailand,215716
+2019-02,Departure,Singapore,South East Asia,Philippines,108705
+2019-02,Departure,Singapore,South East Asia,Vietnam,95906
+2019-02,Departure,Singapore,North East Asia,China,313675
+2019-02,Departure,Singapore,North East Asia,Hong Kong,125944
+2019-02,Departure,Singapore,North East Asia,Japan,121869
+2019-02,Departure,Singapore,Europe,United Kingdom,53072
+2019-02,Departure,Singapore,Europe,France,14920
+2019-02,Departure,Singapore,Europe,Germany,40332
+2019-03,Departure,Singapore,South East Asia,Malaysia,278688
+2019-03,Departure,Singapore,South East Asia,Indonesia,338264
+2019-03,Departure,Singapore,South East Asia,Thailand,245015
+2019-03,Departure,Singapore,South East Asia,Philippines,129054
+2019-03,Departure,Singapore,South East Asia,Vietnam,107398
+2019-03,Departure,Singapore,North East Asia,China,297833
+2019-03,Departure,Singapore,North East Asia,Hong Kong,140892
+2019-03,Departure,Singapore,North East Asia,Japan,156571
+2019-03,Departure,Singapore,Europe,United Kingdom,67664
+2019-03,Departure,Singapore,Europe,France,19039
+2019-03,Departure,Singapore,Europe,Germany,52854
+2019-04,Departure,Singapore,South East Asia,Malaysia,270952
+2019-04,Departure,Singapore,South East Asia,Indonesia,331993
+2019-04,Departure,Singapore,South East Asia,Thailand,246906
+2019-04,Departure,Singapore,South East Asia,Philippines,136833
+2019-04,Departure,Singapore,South East Asia,Vietnam,101753
+2019-04,Departure,Singapore,North East Asia,China,288191
+2019-04,Departure,Singapore,North East Asia,Hong Kong,127029
+2019-04,Departure,Singapore,North East Asia,Japan,120571
+2019-04,Departure,Singapore,Europe,United Kingdom,67372
+2019-04,Departure,Singapore,Europe,France,18456
+2019-04,Departure,Singapore,Europe,Germany,51857
+2019-05,Departure,Singapore,South East Asia,Malaysia,261169
+2019-05,Departure,Singapore,South East Asia,Indonesia,309849
+2019-05,Departure,Singapore,South East Asia,Thailand,229736
+2019-05,Departure,Singapore,South East Asia,Philippines,144051
+2019-05,Departure,Singapore,South East Asia,Vietnam,105041
+2019-05,Departure,Singapore,North East Asia,China,308650
+2019-05,Departure,Singapore,North East Asia,Hong Kong,123936
+2019-05,Departure,Singapore,North East Asia,Japan,141874
+2019-05,Departure,Singapore,Europe,United Kingdom,67083
+2019-05,Departure,Singapore,Europe,France,19051
+2019-05,Departure,Singapore,Europe,Germany,52344
+2019-06,Departure,Singapore,South East Asia,Malaysia,304721
+2019-06,Departure,Singapore,South East Asia,Indonesia,367509
+2019-06,Departure,Singapore,South East Asia,Thailand,252037
+2019-06,Departure,Singapore,South East Asia,Philippines,135884
+2019-06,Departure,Singapore,South East Asia,Vietnam,117480
+2019-06,Departure,Singapore,North East Asia,China,300838
+2019-06,Departure,Singapore,North East Asia,Hong Kong,126761
+2019-06,Departure,Singapore,North East Asia,Japan,133398
+2019-06,Departure,Singapore,Europe,United Kingdom,67287
+2019-06,Departure,Singapore,Europe,France,18964
+2019-06,Departure,Singapore,Europe,Germany,51304
+2019-07,Departure,Singapore,South East Asia,Malaysia,280360
+2019-07,Departure,Singapore,South East Asia,Indonesia,397449
+2019-07,Departure,Singapore,South East Asia,Thailand,239380
+2019-07,Departure,Singapore,South East Asia,Philippines,125074
+2019-07,Departure,Singapore,South East Asia,Vietnam,122929
+2019-07,Departure,Singapore,North East Asia,China,306015
+2019-07,Departure,Singapore,North East Asia,Hong Kong,125369
+2019-07,Departure,Singapore,North East Asia,Japan,120968
+2019-07,Departure,Singapore,Europe,United Kingdom,70888
+2019-07,Departure,Singapore,Europe,France,18830
+2019-07,Departure,Singapore,Europe,Germany,52493
+2019-08,Departure,Singapore,South East Asia,Malaysia,284628
+2019-08,Departure,Singapore,South East Asia,Indonesia,350443
+2019-08,Departure,Singapore,South East Asia,Thailand,237681
+2019-08,Departure,Singapore,South East Asia,Philippines,122453
+2019-08,Departure,Singapore,South East Asia,Vietnam,111444
+2019-08,Departure,Singapore,North East Asia,China,369550
+2019-08,Departure,Singapore,North East Asia,Hong Kong,129884
+2019-08,Departure,Singapore,North East Asia,Japan,151982
+2019-08,Departure,Singapore,Europe,United Kingdom,73047
+2019-08,Departure,Singapore,Europe,France,19512
+2019-08,Departure,Singapore,Europe,Germany,56231
