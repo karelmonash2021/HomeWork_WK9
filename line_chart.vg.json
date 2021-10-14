@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Trend in Departure from 2015-2020",
+    "width": 600,
+    "height": 400,
+    "description": "Stock prices of 5 Tech Companies over Time.",
+    "data": {"url": "https://raw.githubusercontent.com/karelmonash2021/HomeWork_WK9/main/data/airport_monthly_df.csv"},
+    "params": [
+      {
+        "name": "year_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020"
+          ],
+          "labels":[
+            "Show All",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020"
+          ],
+          "name": "Year_Selection: "
+        } 
+      }
+    ],
+    "transform": [
+      {"filter": "year_selection == null || datum.year == year_selection"}
+    ],
+    "mark": {
+      "type": "line",
+      "point": {
+        "filled": false,
+        "fill": "white"
+      }
+    },
+    "encoding": {
+      "x": {"timeUnit": "yearmonth", "field": "month","title": "Month/Years"},
+      "y": {"field": "value", "type": "quantitative","title": "Passenger Departing"},
+      "color": {"timeUnit": "year", "field": "month", "type": "ordinal", "title": "Years", "scale": {"range": ["black", "steelblue", "orange","red","green","yellow"]}},
+      "tooltip": [
+      {"field": "Type", "type": "nominal", "title": "Plane Type"},
+      {"field": "Registered", "type": "quantitative", "format": ","},
+      {"field": "In_Service", "type": "quantitative", "format": ","},
+      {"field": "Active", "type": "quantitative", "format": ""}
+      ]
+    }
+  }
