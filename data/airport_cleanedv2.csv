@@ -1,0 +1,73 @@
+Airport Name,City,Country,IATA,ICAO,Lat,Long,Remarks,origin_latitude,origin_longitute,destination_latitude,destination_longitute
+Frankfurt am Main Airport,Frankfurt,Germany,FRA,EDDF,50.033333,8.570556,Destination,,,50.033333,8.570556
+Munich Airport,Munich,Germany,MUC,EDDM,48.353802,11.7861,Destination,,,48.353802,11.7861
+Manchester Airport,Manchester,United Kingdom,MAN,EGCC,53.35369873046875,-2.2749500274658203,Destination,,,53.35369873046875,-2.2749500274658203
+London Heathrow Airport,London,United Kingdom,LHR,EGLL,51.4706,-0.461941,Destination,,,51.4706,-0.461941
+Amsterdam Airport Schiphol,Amsterdam,Netherlands,AMS,EHAM,52.308601,4.76389,Destination,,,52.308601,4.76389
+Copenhagen Kastrup Airport,Copenhagen,Denmark,CPH,EKCH,55.617900848389,12.656000137328999,Destination,,,55.617900848389,12.656000137328999
+Cape Town International Airport,Cape Town,South Africa,CPT,FACT,-33.9648017883,18.6016998291,Destination,,,-33.9648017883,18.6016998291
+OR Tambo International Airport,Johannesburg,South Africa,JNB,FAOR,-26.1392,28.246,Destination,,,-26.1392,28.246
+Barcelona International Airport,Barcelona,Spain,BCN,LEBL,41.2971,2.0784599999999998,Destination,,,41.2971,2.0784599999999998
+Charles de Gaulle International Airport,Paris,France,CDG,LFPG,49.012798,2.55,Destination,,,49.012798,2.55
+Malpensa International Airport,Milano,Italy,MXP,LIMC,45.6306,8.728110000000001,Destination,,,45.6306,8.728110000000001
+Leonardo da Vinci–Fiumicino Airport,Rome,Italy,FCO,LIRF,41.800277799999996,12.238888900000001,Destination,,,41.800277799999996,12.238888900000001
+Zürich Airport,Zurich,Switzerland,ZRH,LSZH,47.464698999999996,8.54917,Destination,,,47.464698999999996,8.54917
+Auckland International Airport,Auckland,New Zealand,AKL,NZAA,-37.0080986023,174.79200744599999,Destination,,,-37.0080986023,174.79200744599999
+Christchurch International Airport,Christchurch,New Zealand,CHC,NZCH,-43.48939895629883,172.53199768066406,Destination,,,-43.48939895629883,172.53199768066406
+Dubai International Airport,Dubai,United Arab Emirates,DXB,OMDB,25.252799987800003,55.3643989563,Destination,,,25.252799987800003,55.3643989563
+Taiwan Taoyuan International Airport,Taipei,Taiwan,TPE,RCTP,25.0777,121.233002,Destination,,,25.0777,121.233002
+Narita International Airport,Tokyo,Japan,NRT,RJAA,35.764701843299996,140.386001587,Destination,,,35.764701843299996,140.386001587
+Fukuoka Airport,Fukuoka,Japan,FUK,RJFF,33.585899353027344,130.45100402832028,Destination,,,33.585899353027344,130.45100402832028
+Tokyo Haneda International Airport,Tokyo,Japan,HND,RJTT,35.552299,139.779999,Destination,,,35.552299,139.779999
+Gimhae International Airport,Busan,South Korea,PUS,RKPK,35.1795005798,128.93800354,Destination,,,35.1795005798,128.93800354
+Sardar Vallabhbhai Patel International Airport,Ahmedabad,India,AMD,VAAH,23.0771999359,72.63469696039998,Destination,,,23.0771999359,72.63469696039998
+Chhatrapati Shivaji International Airport,Mumbai,India,BOM,VABB,19.088699340799998,72.8678970337,Destination,,,19.088699340799998,72.8678970337
+Bandaranaike International Colombo Airport,Colombo,Sri Lanka,CMB,VCBI,7.180759906768799,79.88410186767578,Destination,,,7.180759906768799,79.88410186767578
+Phnom Penh International Airport,Phnom-penh,Cambodia,PNH,VDPP,11.546600341796875,104.84400177001952,Destination,,,11.546600341796875,104.84400177001952
+Netaji Subhash Chandra Bose International Airport,Kolkata,India,CCU,VECC,22.654699325561523,88.44670104980469,Destination,,,22.654699325561523,88.44670104980469
+Hazrat Shahjalal International Airport,Dhaka,Bangladesh,DAC,VGZR,23.843347,90.39778299999999,Destination,,,23.843347,90.39778299999999
+Hong Kong International Airport,Hong Kong,Hong Kong,HKG,VHHH,22.308901000000002,113.915001,Destination,,,22.308901000000002,113.915001
+Indira Gandhi International Airport,Delhi,India,DEL,VIDP,28.5665,77.103104,Destination,,,28.5665,77.103104
+Tribhuvan International Airport,Kathmandu,Nepal,KTM,VNKT,27.6966,85.3591,Destination,,,27.6966,85.3591
+Kempegowda International Airport,Bangalore,India,BLR,VOBL,13.1979,77.706299,Destination,,,13.1979,77.706299
+Cochin International Airport,Kochi,India,COK,VOCI,10.152000000000001,76.401901,Destination,,,10.152000000000001,76.401901
+Chennai International Airport,Madras,India,MAA,VOMM,12.990005493164062,80.16929626464844,Destination,,,12.990005493164062,80.16929626464844
+Malé International Airport,Male,Maldives,MLE,VRMM,4.1918301582336435,73.52909851074219,Destination,,,4.1918301582336435,73.52909851074219
+Phuket International Airport,Phuket,Thailand,HKT,VTSP,8.1132,98.316902,Destination,,,8.1132,98.316902
+Da Nang International Airport,Danang,Vietnam,DAD,VVDN,16.043899536132812,108.1989974975586,Destination,,,16.043899536132812,108.1989974975586
+Noi Bai International Airport,Hanoi,Vietnam,HAN,VVNB,21.221200942993164,105.80699920654295,Destination,,,21.221200942993164,105.80699920654295
+Tan Son Nhat International Airport,Ho Chi Minh City,Vietnam,SGN,VVTS,10.8187999725,106.652000427,Destination,,,10.8187999725,106.652000427
+Brunei International Airport,Bandar Seri Begawan,Brunei,BWN,WBSB,4.944200038909912,114.9280014038086,Destination,,,4.944200038909912,114.9280014038086
+Soekarno-Hatta International Airport,Jakarta,Indonesia,CGK,WIII,-6.1255698204,106.65599823,Destination,,,-6.1255698204,106.65599823
+Kuala Lumpur International Airport,Kuala Lumpur,Malaysia,KUL,WMKK,2.7455799579619997,101.70999908446998,Destination,,,2.7455799579619997,101.70999908446998
+Penang International Airport,Penang,Malaysia,PEN,WMKP,5.297140121459961,100.2770004272461,Destination,,,5.297140121459961,100.2770004272461
+Singapore Changi Airport,Singapore,Singapore,SIN,WSSS,1.35019,103.994003,Origin,1.35019,103.994003,,
+Brisbane International Airport,Brisbane,Australia,BNE,YBBN,-27.38419914245605,153.11700439453125,Destination,,,-27.38419914245605,153.11700439453125
+Cairns International Airport,Cairns,Australia,CNS,YBCS,-16.885799408,145.755004883,Destination,,,-16.885799408,145.755004883
+Melbourne International Airport,Melbourne,Australia,MEL,YMML,-37.673302,144.843002,Destination,,,-37.673302,144.843002
+Adelaide International Airport,Adelaide,Australia,ADL,YPAD,-34.945,138.53100600000002,Destination,,,-34.945,138.53100600000002
+Perth International Airport,Perth,Australia,PER,YPPH,-31.94029998779297,115.96700286865234,Destination,,,-31.94029998779297,115.96700286865234
+Sydney Kingsford Smith International Airport,Sydney,Australia,SYD,YSSY,-33.94609832763672,151.177001953125,Destination,,,-33.94609832763672,151.177001953125
+Beijing Capital International Airport,Beijing,China,PEK,ZBAA,40.0801010131836,116.58499908447266,Destination,,,40.0801010131836,116.58499908447266
+Guangzhou Baiyun International Airport,Guangzhou,China,CAN,ZGGG,23.39240074157715,113.29900360107422,Destination,,,23.39240074157715,113.29900360107422
+Shenzhen Bao'an International Airport,Shenzhen,China,SZX,ZGSZ,22.639299392700195,113.81099700927734,Destination,,,22.639299392700195,113.81099700927734
+Chongqing Jiangbei International Airport,Chongqing,China,CKG,ZUCK,29.719200134277344,106.64199829101562,Destination,,,29.719200134277344,106.64199829101562
+Shanghai Pudong International Airport,Shanghai,China,PVG,ZSPD,31.143400192260746,121.80500030517578,Destination,,,31.143400192260746,121.80500030517578
+San Francisco International Airport,San Francisco,United States,SFO,KSFO,37.61899948120117,-122.375,Destination,,,37.61899948120117,-122.375
+Los Angeles International Airport,Los Angeles,United States,LAX,KLAX,33.94250107,-118.40799709999999,Destination,,,33.94250107,-118.40799709999999
+Newark Liberty International Airport,Newark,United States,EWR,KEWR,40.69250106811523,-74.168701171875,Destination,,,40.69250106811523,-74.168701171875
+George Bush Intercontinental Houston Airport,Houston,United States,IAH,KIAH,29.98439979553223,-95.34140014648438,Destination,,,29.98439979553223,-95.34140014648438
+Seattle Tacoma International Airport,Seattle,United States,SEA,KSEA,47.449001,-122.308998,Destination,,,47.449001,-122.308998
+John F Kennedy International Airport,New York,United States,JFK,KJFK,40.63980103,-73.77890015,Destination,,,40.63980103,-73.77890015
+Suvarnabhumi Airport,Bangkok,Thailand,BKK,VTBS,13.681099891662598,100.74700164794922,Destination,,,13.681099891662598,100.74700164794922
+Husein Sastranegara International Airport,Bandung,Indonesia,BDO,WICC,-6.900629997253418,107.57599639892578,Destination,,,-6.900629997253418,107.57599639892578
+Juanda International Airport,Surabaya,Indonesia,SUB,WARR,-7.379829883575439,112.78700256347656,Destination,,,-7.379829883575439,112.78700256347656
+Incheon International Airport,Seoul,South Korea,ICN,RKSI,37.46910095214844,126.45099639892578,Destination,,,37.46910095214844,126.45099639892578
+Ngurah Rai (Bali) International Airport,Denpasar,Indonesia,DPS,WADD,-8.7481698989868,115.16699981689,Destination,,,-8.7481698989868,115.16699981689
+Chubu Centrair International Airport,Nagoya,Japan,NGO,RJGG,34.8583984375,136.80499267578122,Destination,,,34.8583984375,136.80499267578122
+Kansai International Airport,Osaka,Japan,KIX,RJBB,34.42729949951172,135.24400329589844,Destination,,,34.42729949951172,135.24400329589844
+Darwin International Airport,Darwin,Australia,DRW,YPDN,-12.41469955444336,130.87699890136722,Destination,,,-12.41469955444336,130.87699890136722
+Domodedovo International Airport,Moscow,Russia,DME,UUDD,55.40879821777344,37.90629959106445,Destination,,,55.40879821777344,37.90629959106445
+Kualanamu International Airport,Medan,Indonesia,KNO,WIMM,3.6422220000000003,98.885278,Destination,,,3.6422220000000003,98.885278
+Rajiv Gandhi International Airport,Hyderabad,India,HYD,VOHS,17.2313175201,78.4298553467,Destination,,,17.2313175201,78.4298553467
+Istanbul Airport,Istanbul,Turkey,IST,LTFM,41.275278,28.751944,Destination,,,41.275278,28.751944
