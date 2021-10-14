@@ -47,10 +47,10 @@
       "y": {"field": "value", "type": "quantitative","title": "Passenger Departing"},
       "color": {"timeUnit": "year", "field": "month", "type": "ordinal", "title": "Years", "scale": {"range": ["black", "steelblue", "orange","red","green","yellow"]}},
       "tooltip": [
-      {"field": "Type", "type": "nominal", "title": "Plane Type"},
-      {"field": "Registered", "type": "quantitative", "format": ","},
-      {"field": "In_Service", "type": "quantitative", "format": ","},
-      {"field": "Active", "type": "quantitative", "format": ""}
+      {"field": "year", "type": "nominal", "format": ""},
+      {"field": "value", "type": "quantitative", "format": "", "title": "Total_Passenger"}
       ]
     }
   }
+  
+  
