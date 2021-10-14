@@ -1,10 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
-    "width": 500,
+    "width": 600,
     "height": 400,
-    "title": "Passenger departing from Singapore and arriving in Singapore",
+    "title": "Passenger departing from Singapore against arriving in Singapore",
     "data": {
-        "url": "data/departure_cleaned.csv"
+        "url": "https://raw.githubusercontent.com/karelmonash2021/HomeWork_WK9/main/data/departure_cleaned.csv"
       },
       "params": [
         {
@@ -34,11 +34,13 @@
     "encoding": {
         "x": {
             "field": "Total_Passenger_Arrival",
-            "type": "quantitative"
+            "type": "quantitative",
+            "title": "Arrival"
             },  
         "y": {
             "field": "Total_Passenger_Depart",
-            "type": "quantitative"
+            "type": "quantitative",
+            "title": "Departure"
             }
     },
     "layer": [
@@ -61,9 +63,9 @@
                 "type": "nominal"
             },
             "opacity": {
-            "condition": {"selection": "destination_highlight", "value": 0.6},
-            "value": 0.2
-            }   
+                "condition": {"selection": "destination_highlight", "value": 0.6},
+                "value": 0.2
+            }
         },
         "tooltip": [
             {"field": "Destination", "type": "nominal"},
@@ -86,8 +88,8 @@
                 "color": {"value": "black"},
                 "opacity": {
                     "condition": {
-                        "test": "datum['Destination'] == 'China' || datum['Destination'] == 'Thailand' || datum['Destination'] == 'Vietnam'",
-                        "value": 1 
+                        "test": "datum['Destination'] == 'China' && datum['Total_Passenger_Arrival'] > '345.000' || datum['Destination'] == 'Indonesia' && datum['Total_Passenger_Arrival'] > '370.000' || datum['Destination'] == 'Malaysia' && datum['Total_Passenger_Arrival'] > '309.000' || datum['Destination'] == 'Thailand' && datum['Total_Passenger_Arrival'] > '270.000' || datum['Destination'] == 'Japan' && datum['Total_Passenger_Arrival'] > '145.000' || datum['Destination'] == 'Philippines' && datum['Total_Passenger_Arrival'] > '147.000' || datum['Destination'] == 'Hong Kong' && datum['Total_Passenger_Arrival'] < '119.000' || datum['Destination'] == 'Vietnam' && datum['Total_Passenger_Arrival'] < '107.000' || datum['Destination'] == 'United Kingdom' && datum['Total_Passenger_Arrival'] > '75.000' || datum['Destination'] == 'Germany' && datum['Total_Passenger_Arrival'] < '42.000' || datum['Destination'] == 'France' && datum['Total_Passenger_Arrival'] > '2.000'",
+                        "value": 1
                     },
                     "value": 0
                 },
