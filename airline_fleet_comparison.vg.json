@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/karelmonash2021/HomeWork_WK9/main/data/singapore_airline_fleet.csv"},
+    "width": {"step": 12},
+    "selection": {
+      "year_highlight": 
+      {
+        "type": "multi",
+        "fields": ["Year"],
+        "bind": "legend"
+      }
+    },
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "Type",
+        "type": "nominal",
+        "title": "Plane Type"
+      },
+      "x": {
+         "aggregate": "average","field": "Active",
+        "title": "Currently Active"
+      },
+      "color": {
+        "field": "Year",
+        "scale": {"range": ["#675193", "#ca8861"]}
+      },
+      "opacity": {
+        "condition": {
+          "selection":"year_highlight", "value": 0.6},
+        "value": 0.2
+      }
+  
+    },
+    "config": {
+      "view": {"stroke": "transparent"},
+      "axis": {"domainWidth": 1}
+    }
+  }
