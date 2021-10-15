@@ -1,23 +1,23 @@
 month,region,country,no_of_visitor_arrivals
 2015-11,Asia,Asean,452450
-2015-11,Asia,Brunei,6107
-2015-11,Asia,Indonesia,200248
-2015-11,Asia,Malaysia,105821
-2015-11,Asia,Philippines,59743
-2015-11,Asia,Thailand,38082
-2015-11,Asia,Vietnam,29071
-2015-11,Asia,Myanmar,7485
-2015-11,Asia,Japan,67137
-2015-11,Asia,Hong Kong,36967
-2015-11,Asia,China,157911
-2015-11,Asia,Taiwan,23847
-2015-11,Asia,Korea,44574
-2015-11,Asia,India,86947
-2015-11,Asia,Pakistan,1434
-2015-11,Asia,Sri Lanka,7289
-2015-11,Asia,Saudi Arabia,791
-2015-11,Asia,Kuwait,323
-2015-11,Asia,United Arab Emirates,5392
+2015-11,South East Asia,Brunei,6107
+2015-11,South East Asia,Indonesia,200248
+2015-11,South East Asia,Malaysia,105821
+2015-11,South East Asia,Philippines,59743
+2015-11,South East Asia,Thailand,38082
+2015-11,South East Asia,Vietnam,29071
+2015-11,South East Asia,Myanmar,7485
+2015-11,North East Asia,Japan,67137
+2015-11,North East Asia,Hong Kong,36967
+2015-11,North East Asia,China,157911
+2015-11,North East Asia,Taiwan,23847
+2015-11,North East Asia,Korea,44574
+2015-11,South Asia,India,86947
+2015-11,South Asia,Pakistan,1434
+2015-11,South Asia,Sri Lanka,7289
+2015-11,West Asia,Saudi Arabia,791
+2015-11,West Asia,Kuwait,323
+2015-11,West Asia,United Arab Emirates,5392
 2015-11,Europe,United Kingdom,41604
 2015-11,Europe,Germany,27772
 2015-11,Europe,France,12175
