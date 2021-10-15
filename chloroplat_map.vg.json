@@ -2,11 +2,47 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json", "title": "Singapore Airlines Main Routed at 2020",
     "width": 700,
     "height": 550,
-    "projection": {"type": "equirectangular"},
+    "projection": {"type": "equirectangular",
+                  "center": { "expr": "center_to" },
+                  "scale": { "expr": "zoom_level" }
+                  },
     "data": {
       "url": "https://raw.githubusercontent.com/karelmonash2021/HomeWork_WK9/main/data/ne_110m_admin_0_countries.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
+     "params": [ 
+       {
+         "name": "zoom_level",
+         "value": 125,
+         "bind": {
+           "input": "range",
+           "min": 125,
+           "max": 1000,
+           "step": 50,
+           "name": "Zoom: "
+          }
+        },
+       {
+         "name": "center_to",
+         "value": [0,0],
+         "bind": {
+           "input": "select",
+           "options": [
+             [0,0],
+             [115.6628,2.2180],
+             [114.1558,22.5009],
+             [76.4563, 25.0376],
+             [100.6197, 34.0479],
+             [42.551, 29.2985],
+             [15.2551, 54.526],
+             [-95.7129, 37.0902],
+             [140.0188, -22.7359]
+            ],
+            "labels": ["Show ALL","South East Asia", "North Asia", "South Asia", "West Asia", "Middle East","Europe", "America", "Oceania"],
+            "name": "Map Centre: "
+          }
+        }
+     ],
      "layer":[
         {
           "transform": [
@@ -25,22 +61,22 @@
               "lookup": "properties.NAME",
               "from": {
                 "data": {
-                  "url": "data/departure_cleaned_map.csv"
+                  "url": "https://raw.githubusercontent.com/karelmonash2021/HomeWork_WK9/main/data/arrival_month.csv"
                 },
-                "key": "Destination",
-                "fields": ["Total_Passenger_Depart"]
+                "key": "country",
+                "fields": ["no_of_visitor_arrivals"]
               }
             }
           ],
           "mark": {"type": "geoshape"},
           "encoding": {
             "color": {
-              "field": "Total_Passenger_Depart",
+              "field": "no_of_visitor_arrivals",
               "type": "quantitative"
             },
           "tooltip": [
-            {"field": "properties.NAME", "type": "nominal", "title": "Destination"},
-            {"field": "Total_Passenger_Depart", "type": "quantitative", "format": ".2f"}
+            {"field": "properties.NAME", "type": "nominal", "title": "Arrival from"},
+            {"field": "no_of_visitor_arrivals", "type": "quantitative", "format": ".2f", "title": "Amount of Visitors"}
         ]
     } } ]
     }
