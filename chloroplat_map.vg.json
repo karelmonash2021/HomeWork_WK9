@@ -1,5 +1,5 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", "title": "Singapore Airlines Main Routed at 2020",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", "title": "Singapore Airlines Main Route at 2020",
     "width": 700,
     "height": 550,
     "projection": {"type": "equirectangular",
