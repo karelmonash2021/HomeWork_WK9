@@ -72,7 +72,8 @@
           "encoding": {
             "color": {
               "field": "no_of_visitor_arrivals",
-              "type": "quantitative"
+              "type": "quantitative",
+              "title": "Passenger_Arrival"
             },
           "tooltip": [
             {"field": "properties.NAME", "type": "nominal", "title": "Arrival from"},
