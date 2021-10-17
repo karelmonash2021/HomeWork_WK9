@@ -32,35 +32,137 @@
 
         <div class="pure-g">
             <div class="pure-u-1-1">
-                <h1>How Pandemic changes the Travel Rate of People</h1>
-                <h3>By: Karel Mackenzie Chandra</h3>
+                <header>
+                    <h1>How South East Asia transport hub is affected by Pandemic</h1>
+                    <h3>By: Karel Mackenzie Chandra - 30373867</h3>
+                </header>
             </div>
         </div>
 
-
         <div class="pure-g">
-            <div class="pure-u-1-3">
+            <div class="pure-u-1-2">
                 <div class="description description-left">
-                    <h2>Corresponding countries that Singapore Airline mainly operates on</h2>
-                    <p>Throughout the Pandemic we can see that people tends to stay at home more then before, and it even reflects on air transport. Air transport industry has been hit hard in particular as people do not travel as much as before. </p>
+                    <div class="small-font">
+                        <p>In this visualisation we are going to visualise the trends in international travels-arrivals and cargo export-import on Changi airport throughout the pandemic.</p>
+                        <p>Here we see how <span class='singapore_text'> Singapore </span> as the transport hub of South East Asia handles the new normal of Pandemic Travels, Cargo Transport, 
+                            current active international routes from <span class='singapore_text'> Singapore Airline</span>. Lastly we are going to see the visualiation of active fleets, 
+                            comparing it pre covid and covid total fleets.</p>
+                    </div>
                 </div>
             </div>
-            <div class="pure-u-2-3">
-                <div id="chloropleth_map" class="vis-container"></div>
+            <div class="pure-u-2-2">
+                <img src="data/resources_singaporeflaghighres.jpg" class="image"/>
             </div>
         </div>
 
 
-        <div class="pure-g">
-            <div class="pure-u-2-3">
-                <div id="bubble_chart" class="vis-container"></div>
+        <div class="pure-g block text-center">
+            <div class="pure-u-1-1">
+                <map>
+                    <div class="sub-title">
+                        <h2>Routes offered by Singapore Airlines</h2>     
+                    </div>
+                    <p>Throughout the Pandemic people tends to not travel more as before due to restrictions,
+                        presented from each country for incoming travles. Hence by that the Air transport industry 
+                        has been hit hard in particular as people does not travel as much as before.</p>
+                    <div class="figure">
+                        <p>Fig.1</p>
+                    </div>
+                </map>
             </div>
-            <div class="pure-u-1-3">
-                <div class="description description-right">
-                  <h2>Departure v Arrival of Passenger according to each country</h2>
-                  <p>The trend of travel per country can tell that how many from them as recovered from the Pandemic crisis, and different country handles differently on this case. The faster they recover to new normal then the more people have already travel around too.</p>
+            <div class="pure-u-2-2">
+                <div id="flow_map" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-1">
+                <map>
+                    <p>The longest flight route that Singapore Airlines has ever offered is  <span class='color-red'>Singapore-JFK</span>
+                        route with covering a distance of <span class='num-typo'>9,536 miles</span>,</p> 
+                        <p>it will take <span class='num-typo'>18 hours and 5 mins</span></p> <p>direct flight to the destination.</p>
+                </map>
+        </div>
+
+
+        <div class="pure-g block left">
+            <div class="pure-u-1-1">
+                <map>
+                  <div class="sub-title">
+                    <h2>Departure rate in comparison to Arrival rate from the selected Countries</h2>
+                  </div>  
+                  <p>The travel rate of people in different countries can gives an insight on how the recovery <span class='num-typo'>economy rate</span> of the country,
+                      in corresponding to the travel rate of people, not only that but certain travel restrictions to here have important role. 
+                  </p>
+                  <div class="figure">
+                    <p>Fig.2</p>
+                </div>
+                </map>
+            </div>
+            <div class="pure-u-2-3">
+                <div id="bubble_chart" class="vis-container1"></div>
+            </div>
+            <div class="pure-u-1-1">
+                <map>
+                  <p>Here we can identify that arrivals and departure to China and Indonesia have the <span class='num-typo'>highest rate</span>, against other country.
+                      Why is that so because the travel restrictions are less to the two countries and is not that significant in compare
+                      to other countries. Not only that but other factors such as vaccination rate and herd immunity may have been reached 
+                      by  those country that alreay start to rise from the crisis. 
+                  </p>
+                </map>
+            </div>
+        </div>
+
+        <div class="pure-g block text-center">
+            <div class="pure-u-2-5">
+                <div class="header-title-l">
+                    <h2>Departure Trend in Singapore from 2015-2020</h2>
+                </div>
+                <div class="figure-l">
+                    <p>Fig.3</p>
+                </div>
+                <div id="line_chart" class="vis-container-l"></div>
+                <div class="margin-l">
+                    <p>We can see that there is a positive trend in departure up until 2020 where there is a huge drop due to major travel restrictions.</p>
+                    <p>In 2019 Changi Airport handles <span class='num-typo'>68.3 million</span> passengers,</p>
+                    <p>an increase in <span class='num-typo'>4%</span> from the year before, the highest it has been for <span class='num-typo'>38 years</span>.</p>
+                    <p>Not only that but it also handles <span class='num-typo'>2.01 million</span> cargo in 2019.</p>     
                 </div>
             </div>
+            <div class="pure-u-3-5">
+                <div class="header-title-a">
+                    <h2>Cargo in bound to Singapore from 2000-2020</h2>
+                </div>
+                <div class="figure-a">
+                    <p>Fig.4</p>
+                </div>
+                <div id="area_chart" class="vis-container-a"></div>
+                <div class="margin-a">
+                    <p>Even though international travels are affected due to Pandemic we can see that the cargo passing through is still relatively <span class='num-typo'>high</span>.</p>
+                    <p>Seeing it from 2000, the amount of cargo passing through has gone up almost <span class='num-typo'>250%</span>. Hence airlines see an opportunity in this, they maximize the use of their fleet to carry cargo.</p>
+                    <p>We can see that <span class='num-typo'>Containerized cargo</span> fills in the majority of cargo coming in bound into Singapore.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pure-g block text-center">
+            <div class="pure-u-1-1">
+                <map>
+                    <div class="sub-title">
+                        <h2>Singapore Airline Active Fleet comparison</h2>
+                    </div>
+                  <p>Based on articles found, we can see that Singapore airline total fleet has decrease by <span class='num-typo'>half</span> of it's size. 
+                      Some when through early retirement and others are stored in Alice Springs storage located in Australia, an optimal place to store these jumbo jets.</p>
+                  <div class="figure">
+                      <p>Fig.5</p>
+                  </div>
+                </map>
+            </div>
+            <div class="pure-u-2-2">
+                <div id="bar_chart"></div>
+            </div>
+            <div class="pure-u-1-1">
+                <map>
+                  <p>Here we can see that Singapore Airlines have mainly relied on two types of Plane which is the Boeing 777-300ER and the Airbus A350-900. 
+                      However in 2020 they mainly use Airbus A350-900 as it is more cost efficient to operate on as the engine can go further then the 777-300ER.</p>
+                </map>
         </div>
 
     </div>
