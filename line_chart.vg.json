@@ -1,9 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Trend in Departure from 2015-2020",
-    "width": 600,
+    "width": 500,
     "height": 400,
-    "description": "Stock prices of 5 Tech Companies over Time.",
+    "background":"#F5F5F5",
     "data": {"url": "https://raw.githubusercontent.com/karelmonash2021/HomeWork_WK9/main/data/airport_monthly_df.csv"},
     "params": [
       {
@@ -45,7 +45,7 @@
     "encoding": {
       "x": {"timeUnit": "yearmonth", "field": "month","title": "Month/Years"},
       "y": {"field": "value", "type": "quantitative","title": "Passenger Departing"},
-      "color": {"timeUnit": "year", "field": "month", "type": "ordinal", "title": "Years", "scale": {"range": ["black", "steelblue", "orange","red","green","yellow"]}},
+      "color": {"timeUnit": "year", "field": "month", "type": "ordinal", "title": "Years", "scale": {"range": ["black", "steelblue", "orange","red","green","purple"]}},
       "tooltip": [
       {"field": "year", "type": "nominal", "format": ""},
       {"field": "value", "type": "quantitative", "format": "", "title": "Total_Passenger"}
