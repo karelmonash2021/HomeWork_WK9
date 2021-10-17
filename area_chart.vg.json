@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500, "height": 400,
+    "title": "Cargo in bound port from 2000-2020",
+    "background":"#F5F5F5",
+    "data": {"url": "https://raw.githubusercontent.com/karelmonash2021/HomeWork_WK9/main/data/cargo_annual.csv"},
+    "selection": {
+      "cargo_highlight": 
+      {
+        "type": "multi",
+        "fields": ["cargo_type_secondary"],
+        "bind": "legend"
+      }
+    },
+    "mark": "area",
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "year",
+        "title": "Year",
+        "axis": {"format": "%Y"}
+      },
+      "y": {
+        "aggregate": "sum", "field": "cargo_throughput",
+        "title": "Cargo Weight in Tonnes"
+      },
+      "color": {
+        "field": "cargo_type_secondary",
+        "title": "Cargo Type",
+        "scale": {"scheme": "category20b"}
+      },
+      "opacity": {
+        "condition": {
+          "selection":"cargo_highlight", 
+          "value": 0.8},
+        "value": 0.2
+      },
+      "tooltip": [
+      {"field": "cargo_type_primary", "type": "nominal", "format": "", "title": "Primary"},
+      {"field": "cargo_type_secondary", "type": "nominal", "format": "", "title": "Secondary"},
+      {"field": "cargo_throughput", "type": "quantitative", "format": "", "title": "Cargo Output"}
+      
+      ]
+  
+    }
+  }
