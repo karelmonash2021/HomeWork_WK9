@@ -1,49 +1,52 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": { "url": "https://raw.githubusercontent.com/karelmonash2021/HomeWork_WK9/main/data/singapore_airline_fleet.csv"},
-  "width": {"step": 12},
-  "selection": {
-    "year_highlight": 
-    {
-      "type": "multi",
-      "fields": ["Year"],
-      "bind": "legend"
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "height": 200,
+    "title": "Singapore Airline current operating fleet",
+    "background":"#F5F5F5",
+    "data": { "url": "https://raw.githubusercontent.com/karelmonash2021/HomeWork_WK9/main/data/singapore_airline_fleet.csv"},
+    "width": {"step": 20},
+    "selection": {
+      "year_highlight": 
+      {
+        "type": "multi",
+        "fields": ["Year"],
+        "bind": "legend"
+      }
+    },
+    "mark": "bar",
+    "encoding": {
+      "column": {
+        "field": "Type", "type": "ordinal", "spacing": 55,
+        "title": "Plane Type",
+        "header": {"orient": "bottom"}
+      },
+      "x": {
+        "field": "Year",
+        "axis": null
+      },
+      "y": {
+         "aggregate": "average","field": "Active",
+        "title": "Currently Active"
+      },
+      "color": {
+        "field": "Year",
+        "scale": {"range": ["#675193", "#ca8861"]}
+      },
+      "opacity": {
+        "condition": {
+          "selection":"year_highlight", 
+          "value": 0.6},
+        "value": 0.2
+      },
+      "tooltip": [
+      {"field": "Type", "type": "nominal", "title": "Plane Type"},
+      {"field": "Registered", "type": "quantitative", "format": ","},
+      {"field": "In_Service", "type": "quantitative", "format": ","},
+      {"field": "Active", "type": "quantitative", "format": ""}
+      ]
+    },
+    "config": {
+      "view": {"stroke": "transparent"},
+      "axis": {"domainWidth": 1}
     }
-  },
-  "mark": "bar",
-  "encoding": {
-    "column": {
-      "field": "Type", "type": "ordinal", "spacing": 55,
-      "title": "Plane Type",
-      "header": {"orient": "bottom"}
-    },
-    "x": {
-      "field": "Year",
-      "axis": null
-    },
-    "y": {
-       "aggregate": "average","field": "Active",
-      "title": "Currently Active"
-    },
-    "color": {
-      "field": "Year",
-      "scale": {"range": ["#675193", "#ca8861"]}
-    },
-    "opacity": {
-      "condition": {
-        "selection":"year_highlight", 
-        "value": 0.6},
-      "value": 0.2
-    },
-    "tooltip": [
-    {"field": "Type", "type": "nominal", "title": "Plane Type"},
-    {"field": "Registered", "type": "quantitative", "format": ","},
-    {"field": "In_Service", "type": "quantitative", "format": ","},
-    {"field": "Active", "type": "quantitative", "format": ""}
-    ]
-  },
-  "config": {
-    "view": {"stroke": "transparent"},
-    "axis": {"domainWidth": 1}
   }
-}
