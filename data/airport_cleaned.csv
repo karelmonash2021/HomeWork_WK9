@@ -1,7 +1,7 @@
 Airport Name,City,Country,IATA,ICAO,Lat,Long,Remarks,Continents
 Frankfurt am Main Airport,Frankfurt,Germany,FRA,EDDF,50.033333,8.570556,Destination,Europe
 Munich Airport,Munich,Germany,MUC,EDDM,48.353802,11.7861,Destination,Europe
-Manchester Airport,Manchester,United Kingdom,MAN,EGCC,53.35369873046875,-2.2749500274658203,Destination, Europe
+Manchester Airport,Manchester,United Kingdom,MAN,EGCC,53.35369873046875,-2.2749500274658203,Destination,Europe
 London Heathrow Airport,London,United Kingdom,LHR,EGLL,51.4706,-0.461941,Destination,Europe
 Amsterdam Airport Schiphol,Amsterdam,Netherlands,AMS,EHAM,52.308601,4.76389,Destination,Europe
 Copenhagen Kastrup Airport,Copenhagen,Denmark,CPH,EKCH,55.617900848389,12.656000137328999,Destination,Europe
